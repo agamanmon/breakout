@@ -57,7 +57,6 @@ while game_is_on:
 
 	if touches == 4:
 		ball.speed_up()
-		print(f'current speed: {ball.move_speed}')
 		touches = 0
 
 	# Detect end game:
